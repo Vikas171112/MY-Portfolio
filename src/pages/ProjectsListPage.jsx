@@ -68,7 +68,6 @@ function ProjectsListPage() {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-6">
-        {/* Page Header */}
         <div className="text-center mb-14">
           <h1 className="text-4xl md:text-5xl font-bold">🚀 All Projects</h1>
           <p className="text-muted-foreground mt-3 max-w-2xl mx-auto">
@@ -78,7 +77,6 @@ function ProjectsListPage() {
           </p>
         </div>
 
-        {/* Personal Projects */}
         <h2 className="text-2xl font-semibold mb-6">💻 Personal Projects</h2>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3 mb-16">
           {personalProjects.map((project, index) => (
@@ -92,7 +90,6 @@ function ProjectsListPage() {
           ))}
         </div>
 
-        {/* Internship Projects */}
         <h2 className="text-2xl font-semibold mb-6">👨‍💼 Internship Projects</h2>
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
           {internshipProjects.map((project, index) => (
